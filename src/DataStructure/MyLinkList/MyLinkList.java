@@ -150,7 +150,7 @@ public class MyLinkList {
             }
 
             //测试修改第N个节点的值
-            if(list.updateList(5,33))
+            if(list.updateList(5,3333))
             {
                 System.out.println("修改后的链表");
                 list.printList();
