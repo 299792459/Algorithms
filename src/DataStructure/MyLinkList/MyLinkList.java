@@ -11,7 +11,7 @@ package DataStructure.MyLinkList;
 public class MyLinkList {
         //链表中的节点，data代表节点的值，next是指向下一个节点的引用
         class Node {
-            Node next = null;
+            public Node next = null;
             // 节点的引用，指向下一个节点
             int data;
             // 节点的对象，即内容
@@ -21,7 +21,7 @@ public class MyLinkList {
             }
         }
         // 头节点
-        Node head = null;
+        public Node head = null;
         //private int length;
         //向链表中插入数据
         public void addNode(int d) {
